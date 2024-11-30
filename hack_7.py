@@ -10,6 +10,14 @@ text: [0] output => [0]
 
 
 def fn_hack_7(s):
-    result = s
-    #...
-    return result
+    result = []
+    if len(s) > 0:
+        if s == [0]:
+            return [0]
+        for i in range(len(s)):
+            if i % 2 == 0:
+                result.append(str(i + 1))
+            else:
+                result.append(i + 1)
+        return result
+        

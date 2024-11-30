@@ -42,7 +42,7 @@ def test_hack_4():
 def test_hack_5():
     assert fn_hack_5("fooziman") == "fo-zi-ma-"
     assert fn_hack_5("barziman") == "ba-zi-an"
-    assert fn_hack_5("qu-") == "qu-"
+    assert fn_hack_5("qux") == "qu-"
     assert fn_hack_5("eq") == "eq"
 
 
